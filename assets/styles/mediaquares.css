@@ -1,0 +1,43 @@
+@media (max-width:320px){
+    #header{
+        padding: 10px;
+    }
+    .menu-nav{
+        display: flex;
+    }
+
+    #menu-nav:checked ~.navbar-list{
+        display: flex;
+    }
+    
+
+    .hero_img{
+        display: none;
+    }
+    .navbar-list{
+        display: none;
+    }
+    #hero{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        justify-content: center;
+    }
+    #about{
+        padding: 5px;
+    }
+    .about_home p{
+        width: 100%;
+    }
+    
+    
+    
+}

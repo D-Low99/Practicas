@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deadpool</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/mediaquares.css">
 </head>
 <body>
 
     <header id="header">
         <img src="./assets/img/Logo.png" alt="nav-icon">
-        <ul class="navbar">
-            <li class="navbar-list"><a href="#hero"><Span>Inicio</Span></a></li>
-            <li class="navbar-list"><a href="#about">Historia</a></li>
-            <li class="navbar-list"><a href="#">Trabajos</a></li>
-            <li class="navbar-list"><a href="#">Donde vivo?</a></li>
-        </ul>
+
+        <nav class="navbar">
+            <label for="menu-nav" class="menu-nav">
+                <div class="menu-icon">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </div>
+            </label>
+            <input type="checkbox" id="menu-nav">
+
+            <ul class="navbar-list">
+                <li ><a href="#hero"><Span>Inicio</Span></a></li>
+                <li ><a href="#about">Historia</a></li>
+                <li ><a href="#">Trabajos</a></li>
+                <li ><a href="#">Donde vivo?</a></li>
+            </ul>
+        </nav>
+        
     </header>
 
     <main id="main">
@@ -42,11 +56,66 @@
             </div>
 
         </section>
+        <section id="cards">
+
+            <div class="card-head">
+                <h2>Porque trabajar con el </h2>
+                <p>Aca algunos cositas del porque si trabajar con el </p>
+
+            </div>
+            <div class="card-benif">
+                <div class="card-benif_body">
+                    <img src="./assets/img/cuchillo-de-cocina.png" alt="">
+                    <h3>Brutalidad eficaz</h3>
+                    <p>No importa si es mujer, hombre o lo que sea, los mata, extorciona o que quiera sin importar que. </p>
+
+                </div>
+                <div class="card-benif_body">
+                    <img src="./assets/img/pistola.png" alt="">
+                    <h3>Variedad de armas</h3>
+                    <p>Puede hacer su trabajo con cualquier cosa que haga daño, de alguna forma u otra mata</p>
+
+                </div>
+                <div class="card-benif_body">
+                    <img src="./assets/img/sangre.png" alt="">
+                    <h3>No se muere</h3>
+                    <p>Aunque quiere morir no puede, asi que las posibilidades de hacer su trabajo es infinito, al menos casi siempre</p>
+
+                </div>
+
+
+            </div>
+
+        </section>
        
     </main>
 
     <footer>
+        <section id="footer">
 
+            <div class="footer-contact">
+                <div class="footer-contact_title">
+                    <h2>Donde esta?</h2>
+                </div>
+                <div class="footer-contact_direction">
+                    <p>New York</p>
+                    <p>Deadpool@xforce.com</p>
+                    <p>153 451 455</p>
+                </div>
+                <div class="footer-contact_social">
+
+                    <a href=""><img src="./assets/img/facebook.png" alt="facebook"></a>
+                    <a href=""><img src="./assets/img/tik-tok.png" alt="tik-tok"></a>
+                    <a href=""><img src="./assets/img/instagram.png" alt="instagram"></a>
+
+                </div>
+            </div>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0622236789!2d-74.30932477148002!3d40.69701929469058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1733180028572!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+
+        </section>
     </footer>
     
 </body>
