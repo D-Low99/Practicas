@@ -1,22 +1,5 @@
 @media (max-width:320px){
-    #header{
-        padding: 10px;
-    }
-    .menu-nav{
-        display: flex;
-    }
-
-    #menu-nav:checked ~.navbar-list{
-        display: flex;
-    }
     
-
-    .hero_img{
-        display: none;
-    }
-    .navbar-list{
-        display: none;
-    }
     #hero{
         padding: 20px;
         text-align: center;
@@ -28,8 +11,41 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 15px;
         justify-content: center;
+    }
+    .hero_home h1 {
+        font-size: 20px;
+    }
+    #about{
+        padding: 5px;
+    }
+    .about_home p{
+        width: 100%;
+    }
+    .footer-map iframe{
+        max-width: 180px;
+    }
+    
+    
+}
+@media (max-width:480px){
+    
+    #hero{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero_home h1{
+        font-size: 30px;
     }
     #about{
         padding: 5px;
@@ -39,5 +55,95 @@
     }
     
     
+}
+
+@media (max-width:768px){
+    #header{
+        padding: 10px;
+    }
+    .menu-nav{
+        display: flex;
+    }
+
+    
+    .navbar-list{
+        display: none;
+    }
+    #menu-nav:checked ~.overlay{
+        display: block;
+    }
+    #menu-nav:checked ~.navbar-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:20px;
+        top: 60px;
+        right: 0px;
+        position: absolute;
+        background-color: rgb(17, 15, 18);
+        box-shadow: 20px 20px 20px 20px rgb(17, 15, 18);
+        width: 100%;
+        z-index: 2;
+    }
+    #hero{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero_img{
+        display: none;
+    }
+    .hero_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    
+    #about{
+        padding: 5px;
+    }
+    .about_home p{
+        width: 100%;
+    }
+    
     
 }
+
+
+@media (max-width:1024px){
+    
+    #hero{
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .hero_home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about{
+        padding: 5px;
+    }
+    .about_home p{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1680px){
+    #hero{
+        padding: 70px;
+            }
+}
+
