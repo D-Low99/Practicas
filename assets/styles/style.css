@@ -23,7 +23,7 @@
     position: fixed;
     z-index: index 2; ;
     width: 100vw;
-    box-shadow: 0px 15px 40px 20px #000000;
+    box-shadow: 0px -5px 20px 20px #000000;
 
 }
 
